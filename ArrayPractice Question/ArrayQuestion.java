@@ -106,17 +106,39 @@
 
 
 // 6. Write a java program to find the maximum and minimum element in an array.
-public class ArrayQuestion{
-    public static void main(String[] arg){
-        int[] arr = {11, 22, 33, 44, 55};
-        int max = 0;
+// public class ArrayQuestion{
+//     public static void main(String[] arg){
+//         int[] arr = {11, 22, 33, 44, 55};
+//         int max = 0;
         
-        for(int element : arr){
-            if(element >max){
-                max = element;
-            }
-        }
-        System.out.println("The maximum element in the array is: " + max);
+//         for(int element : arr){
+//             if(element >max){
+//                 max = element;
+//             }
+//         }
+//         System.out.println("The maximum element in the array is: " + max);
         
-    }
-}
+//     }
+// }
+
+
+// 7. Write a java program to find whether an array is sorted or not.
+// public class ArrayQuestion{
+//     public static void main(String[] arg){
+//         int[] arr = {11, 22, 33, 44, 55};
+//         boolean isSorted = true;
+
+//         for(int i = 0; i < arr.length - 1; i++){
+//             if(arr[i] > arr[i+1]){
+//                 isSorted = false;
+//                 break;
+//             }
+//         }
+//         if(isSorted){
+//             System.out.println("The array is sorted.");
+//         }
+//         else{
+//             System.out.println("The array is not sorted.");
+//         }
+//     }
+// }
